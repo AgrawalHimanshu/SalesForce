@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Random Test">
+    <classes>
+      <class name="com.automation.tests.LoginTest"/>
+    </classes>
+  </test> <!-- Random Test -->
+  <test name="Random Test(failed)">
+    <classes>
+      <class name="com.automation.tests.LoginTest">
+        <methods>
+          <include name="Step01_Launch_Application"/>
+          <include name="Start_Test_Session"/>
+          <include name="close_Test_Session"/>
+        </methods>
+      </class> <!-- com.automation.tests.LoginTest -->
+    </classes>
+  </test> <!-- Random Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
