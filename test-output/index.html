@@ -2,8 +2,8 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
-  <title>TestNG reports</title>
+    <meta charset='utf-8'>
+    <title>TestNG reports</title>
 
     <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
@@ -25,13 +25,15 @@
       <span class="top-banner-title-font">Test results</span>
       <br/>
       <span class="top-banner-font-1">1 suite, 1 failed test</span>
-    </div> <!-- top-banner-root -->
+    </div> 
+    <!-- top-banner-root -->
+
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
         <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
-          <img class="collapse-all-icon" src="collapseall.gif">
-          </img> <!-- collapse-all-icon -->
+          <img class="collapse-all-icon" src="collapseall.gif" />
+          <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
@@ -125,34 +127,33 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Step01_Launch_Application">
-                  </a> <!-- Step01_Launch_Application -->
+                  <a name="Step01_Launch_Application"></a> <!-- Step01_Launch_Application -->
                   <span class="method-name">Step01_Launch_Application</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;password&quot;}
-  (Session info: chrome=66.0.3359.181)
-  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 21 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
-System info: host: &apos;DLLB0013&apos;, ip: &apos;10.161.232.104&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\HIMANS~1\AppData\Local\Temp\scoped_dir10120_15066}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: e80c8294fadde72eb664b270a292c6e9
-*** Element info: {Using=name, value=password}
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
-	at com.automation.actions.LoginPageAction.enterPassword(LoginPageAction.java:22)
-	at com.automation.tests.LoginTest.Step01_Launch_Application(LoginTest.java:26)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
+		      (Session info: chrome=66.0.3359.181)
+		      (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+		    Command duration or timeout: 21 milliseconds
+		    For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+		    Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+		    System info: host: &apos;DLLB0013&apos;, ip: &apos;10.161.232.104&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+		    Driver info: org.openqa.selenium.chrome.ChromeDriver
+		    Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\HIMANS~1\AppData\Local\Temp\scoped_dir10120_15066}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+		    Session ID: e80c8294fadde72eb664b270a292c6e9
+		    *** Element info: {Using=name, value=password}
+		      at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+		      at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+		      at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	    	      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+		      at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	 	      at org.openqa.selenium.By$ByName.findElement(By.java:303)
+		      at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+		      at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+		      at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+		      at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+		      at com.automation.actions.LoginPageAction.enterPassword(LoginPageAction.java:22)
+		      at com.automation.tests.LoginTest.Step01_Launch_Application(LoginTest.java:26)
+		    ... Removed 28 stack frames
+		  </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -164,26 +165,26 @@ Session ID: e80c8294fadde72eb664b270a292c6e9
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
-&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
-  &lt;test name=&quot;Random Test&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.automation.tests.LoginTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Random Test --&gt;
-  &lt;test name=&quot;Random Test(failed)&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.automation.tests.LoginTest&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;Step01_Launch_Application&quot;/&gt;
-          &lt;include name=&quot;Start_Test_Session&quot;/&gt;
-          &lt;include name=&quot;close_Test_Session&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.automation.tests.LoginTest --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Random Test(failed) --&gt;
-&lt;/suite&gt; &lt;!-- Suite --&gt;
+		&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+		&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+		&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+		  &lt;test name=&quot;Random Test&quot;&gt;
+		    &lt;classes&gt;
+		      &lt;class name=&quot;com.automation.tests.LoginTest&quot;/&gt;
+		    &lt;/classes&gt;
+		  &lt;/test&gt; &lt;!-- Random Test --&gt;
+		  &lt;test name=&quot;Random Test(failed)&quot;&gt;
+		    &lt;classes&gt;
+		      &lt;class name=&quot;com.automation.tests.LoginTest&quot;&gt;
+			&lt;methods&gt;
+			  &lt;include name=&quot;Step01_Launch_Application&quot;/&gt;
+			  &lt;include name=&quot;Start_Test_Session&quot;/&gt;
+			  &lt;include name=&quot;close_Test_Session&quot;/&gt;
+			&lt;/methods&gt;
+		      &lt;/class&gt; &lt;!-- com.automation.tests.LoginTest --&gt;
+		    &lt;/classes&gt;
+		  &lt;/test&gt; &lt;!-- Random Test(failed) --&gt;
+		&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -216,25 +217,25 @@ Session ID: e80c8294fadde72eb664b270a292c6e9
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Suite');
-function tableData_Suite() {
-var data = new google.visualization.DataTable();
-data.addColumn('number', 'Number');
-data.addColumn('string', 'Method');
-data.addColumn('string', 'Class');
-data.addColumn('number', 'Time (ms)');
-data.addRows(1);
-data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Step01_Launch_Application')
-data.setCell(0, 2, 'com.automation.tests.LoginTest')
-data.setCell(0, 3, 7181);
-window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
-return data;
-}
+		suiteTableInitFunctions.push('tableData_Suite');
+	        function tableData_Suite() {
+		  var data = new google.visualization.DataTable();
+		  data.addColumn('number', 'Number');
+		  data.addColumn('string', 'Method');
+		  data.addColumn('string', 'Class');
+		  data.addColumn('number', 'Time (ms)');
+		  data.addRows(1);
+		  data.setCell(0, 0, 0)
+		  data.setCell(0, 1, 'Step01_Launch_Application')
+		  data.setCell(0, 2, 'com.automation.tests.LoginTest')
+		  data.setCell(0, 3, 7181);
+		  window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+		  return data;
+		}
               </script>
               <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Suite">
-              </div> <!-- times-div-Suite -->
+	      </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
@@ -270,8 +271,7 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
+                <img src="failed.png" />
                 <span class="method-name">Step01_Launch_Application</span>
                 <span class="method-start">2940 ms</span>
               </div> <!-- test-method -->
